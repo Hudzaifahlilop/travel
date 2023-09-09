@@ -1,0 +1,49 @@
+/* xs */
+@media (min-width: 350px) {
+    .container {
+        max-width: 350px;
+      }
+    .navbar{
+        max-width: 350px;
+    }
+
+    .button-special{
+        width: 20px;
+    }
+
+      /* #hero{
+        width: ;
+      } */
+
+    /* #partnership */
+    .partnership-col{
+        margin-left: 10px;
+    }
+    .partnership-col img{
+        max-width: 22%;
+        padding-left: 0px;
+    }
+
+    /* #spesial */
+    .spesial-heading h1{
+        font-size: 10px;
+    }
+
+    /* #footer */
+
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
