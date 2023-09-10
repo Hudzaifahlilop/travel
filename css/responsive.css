@@ -7,13 +7,22 @@
         max-width: 350px;
     }
 
-    .button-special{
-        width: 20px;
+
+    /* hero */
+    .hero-col h1{
+        font-size: 25px;
+    }
+    .hero-col p{
+        font-size: 12px;
     }
 
-      /* #hero{
-        width: ;
-      } */
+    .hero-review p{
+        font-size: 8px;
+    }
+
+    #hero{
+        background-position:center;
+    }
 
     /* #partnership */
     .partnership-col{
@@ -24,26 +33,305 @@
         padding-left: 0px;
     }
 
+    /* service */
+    #service{
+        height: max-content;
+    }
+    .service-heading h4{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .service-heading h1{
+        font-size: 25px;
+    }
+
     /* #spesial */
+    .spesial-heading h4{
+        font-size: 16px;
+    }
     .spesial-heading h1{
-        font-size: 10px;
+        font-size: 25px;
+    }
+    .spesial-heading p{
+        font-size: 12px;
+    }
+
+    .button-special{
+        width: 120px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /* booking */
+
+    .booking-heading{
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    .booking-heading h4{
+        font-size: 16px;
+    }
+    .booking-heading h1{
+        font-size: 25px;
+    }
+
+    .booking-list-text h5{
+        font-size: 16px;
+    }
+    .booking-list-text p{
+        font-size: 12px;
+    }
+
+    .card-booking{
+        margin-top: 80px;
+        display: none;
+        
+    }
+    .booking-list{
+        background-image: url(../assets/images/image\ 872.png);
+        background-size: cover;
+    }
+    .booking-accent{
+        margin-top: -10px;
+        display: none;
+        
+    }
+
+    /* explor */
+
+    .card-explore{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .card-img-overlay h5{
+        font-size: 16px;
+        margin-top: -25px;
+    }
+    .card-img-overlay h1{
+        font-size: 20px;
+    }
+
+    .button-explore{
+        width: 120px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /* review */
+    #review{
+        margin-top: 180px;
+    }
+    
+    .review-heading h4{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .review-heading h1{
+        font-size: 25px;
+    }
+
+    .review-text p{
+        font-size: 12px;
+    }
+
+    .accent-review{
+        max-width: 40%;
     }
 
     /* #footer */
 
+    .footer-profile p{
+        font-size: 14px;
+    }
+
+    .footer-profile{
+        margin-bottom: 10px;
+    }
+    .footer-col{
+        margin-bottom: 20px;
+    }
+
+    hr{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+    
+
+
 }
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+      }
+
+      /* partnership */
+
+    .partnership-col img{
+        max-width: 20%;
+        margin-right: 10px;
+    }
+    /* booking */
+    #booking{
+        height: 400px;
+    }
+
+    .booking-list{
+        background-position: center;
+    }
+    #review{
+        margin-top: 410px;
+    }
+    .accent-review{
+        max-width: 20%;
+    }
+    
+}
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+      }
+    /* hero */
+    .hero-col h1{
+        font-size: 35px;
+    }
+    .hero-col p{
+        font-size: 16px;
+    }
+
+    .hero-review p{
+        font-size: 12px;
+    }
+
+    .service-heading h1{
+        font-size: 35px;
+    }
+    .service-heading h4{
+        font-size: 20px;
+    }
+    .spesial-heading h1{
+        font-size: 35px;
+    }
+    .spesial-heading h4{
+        font-size: 20px;
+    }
+    .spesial-heading p{
+        font-size: 16px;
+    }
+
+    .spesial-img img{
+        max-width: 80%;
+    }
+    .card-explore{
+        margin-top: 30px;
+    }
+    .card-booking{
+        display: block;
+        margin-top: 200px;
+   
+    }
+    .card-img-overlay h5{
+        font-size: 20px;
+    }
+    .card-img-overlay h1{
+        font-size: 35px;
+    }
+    #review{
+        margin-top: 580px;
+    }
+    .button-footer{
+        max-width: 45%;
+    }
+    
+
+}
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+      }
+    .hero-col h1{
+        font-size: 58px;
+    }
+    .hero-col p{
+        font-size: 18px;
+    }
+
+    .hero-review p{
+        font-size: 14px;
+    }
+    .service-heading h4{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .service-heading h1{
+        font-size: 50px;
+    }
+    .spesial-heading h4{
+        font-size: 18px;
+    }
+    .spesial-heading h1{
+        font-size: 50px;
+    }
+    .spesial-heading p{
+        font-size: 16px;
+    }
+    .booking-list{
+        background-image: none;
+    }
+    .booking-accent{
+        display: block;
+        margin-top: -50px;
+    }
+    .card-booking {
+        margin-top: 50px;
+    }
+
+    .card-explore{
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    .explore-text h5{
+        font-size: 18px;
+    }
+    .explore-text h1{
+        font-size: 50px;
+    }
+    #review{
+        margin-top: 200px;
+    }
+
+
+    
+}
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+      }
+    .button-special{
+        width: 177px;
+        height: 57px;
+        font-size: 16px;
+    }
+    .button-explore{
+        width: 177px;
+        height: 57px;
+        font-size: 16px;
+    }
+    .button-footer{
+        width: 50%;
+        height: 30px;
+        font-size: 16px;
+    }
+}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
