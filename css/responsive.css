@@ -3,10 +3,15 @@
     .container {
         max-width: 350px;
       }
-    .navbar{
+    /* .navbar{
         max-width: 350px;
-    }
+    } */
 
+    .sidebar{
+        background-color: #181E4B;
+        opacity: 0.8;
+        max-width: 70%;
+    }
 
     /* hero */
     .hero-col h1{
@@ -25,12 +30,15 @@
     }
 
     /* #partnership */
+    #partnership{
+        height: 100px;
+    }
     .partnership-col{
         margin-left: 10px;
     }
     .partnership-col img{
         max-width: 22%;
-        padding-left: 0px;
+        margin-right: 8px;
     }
 
     /* service */
@@ -168,7 +176,9 @@
       }
 
       /* partnership */
-
+      #partnership{
+        height: 150px;
+    }
     .partnership-col img{
         max-width: 20%;
         margin-right: 10px;
@@ -252,6 +262,9 @@
 
 /* lg */
 @media (min-width: 1024px) {
+    #partnership{
+        height: 200px;
+    }
     .container {
         max-width: 1024px;
       }
@@ -330,6 +343,9 @@
         width: 50%;
         height: 30px;
         font-size: 16px;
+    }
+    #explore{
+        margin-top: 30px;
     }
 }
 
